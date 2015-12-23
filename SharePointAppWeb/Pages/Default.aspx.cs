@@ -39,6 +39,7 @@ namespace SharePointAppWeb
                 Response.Write(clientContext.Web.Title);
             }
             //Added in branch 2 by jayaseelan
+            Response.Write("Welcome");
         }
     }
 }
