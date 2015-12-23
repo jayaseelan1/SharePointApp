@@ -31,6 +31,7 @@ namespace SharePointAppWeb
             // The following code gets the client context and Title property by using TokenHelper.
             // To access other properties, the app may need to request permissions on the host web.
             var spContext = SharePointContextProvider.Current.GetSharePointContext(Context);
+            //Modified by jayaseelan
             using (var clientContext = spContext.CreateUserClientContextForSPHost())
             {
                 clientContext.Load(clientContext.Web, web => web.Title);
