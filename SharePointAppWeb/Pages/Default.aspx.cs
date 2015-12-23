@@ -38,6 +38,7 @@ namespace SharePointAppWeb
                 clientContext.ExecuteQuery();
                 Response.Write(clientContext.Web.Title);
             }
+            //Added in branch 2 by jayaseelan
         }
     }
 }
