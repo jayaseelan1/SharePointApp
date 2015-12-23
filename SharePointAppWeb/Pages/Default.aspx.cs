@@ -42,6 +42,8 @@ namespace SharePointAppWeb
             Response.Write("Welcome");
             // Addedn in branch 2
             Response.Write("Welcome2");
+            // Addedn in branch 3
+            Response.Write("Welcome2");
         }
     }
 }
