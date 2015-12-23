@@ -40,6 +40,8 @@ namespace SharePointAppWeb
             }
             //Added in branch 2 by jayaseelan
             Response.Write("Welcome");
+            // Addedn in branch 2
+            Response.Write("Welcome2");
         }
     }
 }
